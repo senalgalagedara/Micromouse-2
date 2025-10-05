@@ -23,7 +23,7 @@ public:
   static uint16_t lastDutyL, lastDutyR;
 
 private:
-  static void setChannel(int pwmPin, int in1, int in2, float omega, uint8_t ledcChannel);
+  static void setChannel(int pwmPin, int in1, int in2, float omega, bool isRight);
 };
 
 #endif // MOTORS_H
